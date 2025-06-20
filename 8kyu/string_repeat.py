@@ -9,5 +9,5 @@ Examples (input -> output)
 
 def repeat_str(n, s):
     if n < 0:
-        raise ValueError("n must be non negative")
+        raise ValueError("'n' must be non negative")
     return s * n

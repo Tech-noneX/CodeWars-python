@@ -34,8 +34,8 @@ def solution(string):
 
 
 #======================= test ==================================================
+import pytest
 
-
-def test_solution():
-    for feed,expected in test_data:
-        assert solution(feed) == expected
+@pytest.mark.parametrize("feed, expected", test_data)
+def test_solution(feed, expected):
+    assert solution(feed) == expected

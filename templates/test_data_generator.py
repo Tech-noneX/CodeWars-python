@@ -15,8 +15,6 @@ for loop in range(5):  # 5 test cases
             nums.append(str(n))
         total += n
     test_data.append((nums, total))
-
-
 test_data = []
 for loop in range(10):  # 10 test cases
     
@@ -27,3 +25,10 @@ for loop in range(10):  # 10 test cases
 
 chars = string.ascii_letters + ' '
 feed = ''.join(random.choice(chars) for loop in range(length))
+import pytest
+
+'''
+@pytest.mark.parametrize("feed, expected", test_data)
+def test_reverse_string(feed, expected):
+    assert reverse_string(feed) == expected
+'''

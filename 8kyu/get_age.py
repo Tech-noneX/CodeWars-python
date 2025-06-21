@@ -31,6 +31,8 @@ def get_age(age):
         age1.append(char)
     return int(age1[0])
 
+#-----------------------------------test----------------------------------------
+
 
 def test_get_age():
     for feed,expected in test_data:

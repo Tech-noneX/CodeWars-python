@@ -1,29 +1,22 @@
 '''
-import random
-import string
-import pytest
-test_data =[]
-for loop in range(5):  # 5 test cases
-length = random.randint(4, 10)  # random length of each list
-nums = []
-total = 0
-n = random.randint(0, 10)
-        # Randomly decide: keep as int or convert to str
-random.choice([True, False]):
-nums.append(n)
-        
-nums.append(str(n))
-total += n
-test_data.append((nums, total))
-test_data = []
-for loop in range(10):  # 10 test cases
-for loop in range(10):
-n = random.randint(0, 9)
-    
-test_data.append((n , n))
 
+n = random.randint(0, 10)
+random.choice([True, False]):
 chars = string.ascii_letters + ' '
-feed = ''.join(random.choice(chars) for loop in range(length))
+feed = ''.join(random.choice(chars) for loop in range(length))        
+
+
+num_of_seq = 20
+for loop in range(num_of_seq):
+    list_length = random.randint(5,10)
+    seq = []
+    for loop in range(list_length):
+        seq.append(random.randint(-20,500))
+    numbers.append(seq) 
+
+
+
+
 '''
 
 '''

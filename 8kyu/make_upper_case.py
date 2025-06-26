@@ -1,5 +1,11 @@
 '''Description:
-Write a function which converts the input string to uppercase.
+Task:
+Create a function that takes a string and returns a new version with all the letters changed to uppercase.
+
+Example:
+
+Input: "openAI is cool"
+Output: "OPENAI IS COOL"
 '''
 
 

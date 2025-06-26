@@ -1,21 +1,24 @@
 import random
 '''
-Description:
-Create a function that takes 2 integers in form of a string as an input, 
-and outputs the sum (also as a string):
+Task:
+Write a function that accepts two values, each representing an integer in string format. 
+Your function should return their sum, also as a string.
 
-Example: (Input1, Input2 -->Output)
+If either input is an empty string, treat it as zero.
 
-"4",  "5" --> "9"
-"34", "5" --> "39"
-"", "" --> "0"
-"2", "" --> "2"
-"-5", "3" --> "-2"
-Notes:
+Both positive and negative numbers are possible.
 
-If either input is an empty string, consider it as zero.
+Examples:
 
-Inputs and the expected output will never exceed the
+Input: "7", "12" → Output: "19"
+
+Input: "-8", "5" → Output: "-3"
+
+Input: "", "4" → Output: "4"
+
+Input: "", "" → Output: "0"
+
+Input: "100", "" → Output: "100"
 '''
 #====================test data generator========================
 

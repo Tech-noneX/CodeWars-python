@@ -1,10 +1,17 @@
 '''
-Write a function that accepts a non-negative integer n and a string s as parameters,
- and returns a string of s repeated exactly n times.
+Task:
+Create a function that takes two inputs: a non-negative integer and a string. 
+The function should return a new string where the given string is repeated as many times as the number.
 
-Examples (input -> output)
-6, "I"     -> "IIIIII"
-5, "Hello" -> "HelloHelloHelloHelloHello"
+Examples:
+
+Input: 3, "abc" → Output: "abcabcabc"
+
+Input: 4, "Go!" → Output: "Go!Go!Go!Go!"
+
+Input: 0, "test" → Output: "" (an empty string)
+
+
 '''
 
 def repeat_str(n, s):

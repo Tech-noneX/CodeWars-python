@@ -1,11 +1,21 @@
 import random
 
 '''
-Description:
-Given an array of integers as strings and numbers,
-return the sum of the array values as if all were numbers.
+Task:
+You’re given a list that contains both numbers and strings representing numbers. Write a function that returns the sum of all these values as numbers.
 
-Return your answer as a number.
+Examples:
+
+Input: [2, "5", 7, "3"] → Output: 17
+
+Input: ["10", 4, "6"] → Output: 20
+
+Input: [0, "0", 0] → Output: 0
+
+Note:
+Return the result as a numeric value, not a string.
+
+
 '''
 
 

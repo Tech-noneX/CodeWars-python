@@ -1,8 +1,10 @@
 
 '''Description:
-Implement a function which convert the given boolean value into its string representation.
+Task:
+Write a function that takes a boolean value as input and returns it as a string—either "True" or "False".
 
-Note: Only valid inputs will be given.
+Note:
+You can assume the input will always be a valid boolean value.
 '''
 
 def boolean_to_string(b):

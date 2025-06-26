@@ -1,28 +1,27 @@
 '''
-Description:
-A square of squares
-You like building blocks. You especially like building blocks that are squares. 
-And what you even like more, is to arrange them into a square of square building blocks!
-However, sometimes, you can't arrange them into a square. 
-Instead, you end up with an ordinary rectangle! Those blasted things! 
-If you just had a way to know, whether you're currently working in vain… Wait! 
-That's it! You just have to check if your number of building blocks is a perfect square.
+Task:
+Imagine you have a collection of blocks and want to know if you can arrange them into a perfect square—meaning, 
+the total number of blocks forms a square shape (like 1x1, 2x2, 3x3, etc.).
 
-Task
-Given an integral number, determine if it's a square number:
-In mathematics, a square number or perfect square is an integer 
-that is the square of an integer; in other words, 
-it is the product of some integer with itself.
-The tests will always use some integral number, 
-so don't worry about that in dynamic typed languages.
+Write a function that takes an integer and returns True if it is a perfect square, or False otherwise.
 
-Examples
--1  =>  false
- 0  =>  true
- 3  =>  false
- 4  =>  true
-25  =>  true
-26  =>  false
+A perfect square is any whole number that can be written as another whole number multiplied by itself.
+
+Examples:
+
+Input: 9 → Output: True (since 3 x 3 = 9)
+
+Input: 0 → Output: True (since 0 x 0 = 0)
+
+Input: 7 → Output: False
+
+Input: 16 → Output: True (since 4 x 4 = 16)
+
+Input: 18 → Output: False
+
+Input: -4 → Output: False
+
+
 '''
 
 

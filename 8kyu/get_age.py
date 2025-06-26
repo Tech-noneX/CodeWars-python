@@ -1,13 +1,14 @@
 '''
-Description:
-You ask a small girl,"How old are you?" She always says, "x years old", 
-where x is a random number between 0 and 9.
+Task:
+A young girl always responds to the question “How old are you?” 
+with a phrase like “3 years old” or “7 years old”, where the number at the start (between 0 and 9) is her age.
 
-Write a program that returns the girl's age (0-9) as an integer.
+Write a function that takes this response as a string and returns her age as an integer.
 
-Assume the test input string is always a valid string. For example, 
-the test input may be "1 year old" or "5 years old". 
-The first character in the string is always a number.
+Note:
+The input will always start with a single-digit number, and the format will be consistent.
+
+
 '''
 #==========================automatically generated test data====================
 

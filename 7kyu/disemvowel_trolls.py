@@ -1,13 +1,23 @@
 '''
-Description:
-Trolls are attacking your comment section!
-A common way to deal with this situation is to remove all of the vowels 
-from the trolls' comments, neutralizing the threat.
-Your task is to write a function that takes a string and return a new string 
-with all vowels removed.
-For example, the string "This website is for losers LOL!" 
-would become "Ths wbst s fr lsrs LL!".
-Note: for this kata y isn't considered a vowel.
+Task:
+Some pesky trolls are spamming your comment section, 
+and the best way to deal with them is to take away all the vowels from their messages!
+
+Write a function that takes a string and returns 
+a new version of the string with all the vowels (a, e, i, o, u—both uppercase and lowercase) removed.
+
+The letter y is not considered a vowel for this task.
+
+Examples:
+
+Input: "Protect your code from trolls!"
+Output: "Prtct yr cd frm trlls!"
+
+Input: "Amazing developers unite!"
+Output: "mzng dvlprs nt!"
+
+Input: "HELLO world"
+Output: "HLL wrld"
 '''
 
 #======================= data generator for test ===============================

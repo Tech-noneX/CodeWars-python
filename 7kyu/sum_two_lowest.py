@@ -1,10 +1,21 @@
 '''
-Create a function that returns the sum of the two lowest positive numbers 
-given an array of minimum 4 positive integers. 
-No floats or non-positive integers will be passed.
-For example, when an array is passed like [19, 5, 42, 2, 77], 
-the output should be 7.
-[10, 343445353, 3453445, 3453545353453] should return 3453455.
+Task:
+Write a function that takes a list of at least four positive integers 
+and returns the sum of the two smallest numbers in the list.
+
+All inputs will be positive whole numbers (no decimals or zero).
+
+The list will always contain at least four numbers.
+
+Examples:
+
+Input: [8, 21, 4, 15, 99] → Output: 12 (since 4 + 8 = 12)
+
+Input: [100, 200, 1, 50, 7] → Output: 8 (since 1 + 7 = 8)
+
+Input: [13, 22, 5, 45, 18, 30] → Output: 18 (since 5 + 13 = 18)
+
+
 '''
 
 

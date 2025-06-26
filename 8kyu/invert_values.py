@@ -1,12 +1,18 @@
 '''
-Description:
-Given a set of numbers, return the additive inverse of each.
-Each positive becomes negatives, and the negatives become positives.
+Task:
+Write a function that takes a list of integers and returns a new list where each number is replaced by its opposite.
+In other words, positive numbers become negative, and negative numbers become positive.
 
-[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
-[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
-[] --> []
-You can assume that all values are integers. Do not mutate the input array.
+Examples:
+
+[1, 2, 3, 4, 5] → [-1, -2, -3, -4, -5]
+
+[1, -2, 3, -4, 5] → [-1, 2, -3, 4, -5]
+
+[] → []
+
+Note:
+Don’t change the original list—return a new one.
 '''
 
 test_data = [

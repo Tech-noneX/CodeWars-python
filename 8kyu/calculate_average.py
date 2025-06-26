@@ -1,9 +1,9 @@
 import pytest
 '''
-Description:
-Write a function which calculates the average of the numbers in a given array.
+Task:
+Create a function that takes a list of numbers and returns their average.
 
-Note: Empty arrays should return 0.
+If the list is empty, your function should return 0.
 '''
 
 

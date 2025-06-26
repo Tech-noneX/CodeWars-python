@@ -1,8 +1,16 @@
 '''
-Complete the solution so that it reverses the string passed into it.
+Task:
+Write a function that takes a string and returns a new string with the characters in reverse order.
 
-'world'  =>  'dlrow'
-'word'   =>  'drow'
+Examples:
+
+Input: "python" → Output: "nohtyp"
+
+Input: "racecar" → Output: "racecar"
+
+Input: "hello" → Output: "olleh"
+
+
 '''
 
 

@@ -1,24 +1,31 @@
 '''
-Description:
-You will be given an array a and a value x. 
-All you need to do is check whether the provided array contains the value.
+Task:
+Write a function that takes two inputs: a list (which may include numbers and/or strings) and a value to look for. The function should return true if the value is present anywhere in the list, or false otherwise.
 
-a can contain numbers or strings. x can be either.
+Examples:
 
-Return true if the array contains the value, false if not.
+Input: ["dog", 23, "hello", 9], "hello" → Output: true
+
+Input: [42, "blue", "sky"], 100 → Output: false
+
+Input: [3, 5, 7, 9], 7 → Output: true
+
+Input: ["apple", "banana", "pear"], "orange" → Output: false
+
+
 '''
 test_data = [
-            (True, ([66, 101], 66)),
-            (False, ([78, 117, 110, 99, 104, 117, 107, 115], 8)),
-            (True, ([101, 45, 75, 105, 99, 107], 107)),
-            (True, ([80, 117, 115, 104, 45, 85, 112, 115], 45)),
-            (True, (['t', 'e', 's', 't'], 'e')),
-            (False, (["what", "a", "great", "kata"], "kat")),
-            (True, ([66, "codewars", 11, "alex loves pushups"], "alex loves pushups")),
-            (False, (["come", "on", 110, "2500", 10, '!', 7, 15], "Come")),
-            (True, (["when's", "the", "next", "Katathon?", 9, 7], "Katathon?")),
-            (False, ([8, 7, 5, "bored", "of", "writing", "tests", 115], 45)),
-            (True, (["anyone", "want", "to", "hire", "me?"], "me?")),
+            (True, ([200, 55, 89], 89)),
+            (False, ([31, 44, 56, 77, 99], 100)),
+            (True, ([12, "abc", 75, "xyz"], "abc")),
+            (False, ([1, 2, 3, 4, 5], 0)),
+            (True, (["apple", "banana", "cherry"], "banana")),
+            (True, ([23, "hello", 99, "world"], 99)),
+            (False, (["python", "java", "c++"], "ruby")),
+            (True, (["find", "this", 10, 20], "this")),
+            (False, ([3.14, "pi", 42, "answer"], 3)),
+            (True, (["test", 1, 2, 3], "test")),
+            (False, ([0, "one", "two"], "three")),
         ]
 
 def check(seq, elem):

@@ -1,7 +1,11 @@
 from random import randint
 '''
-Description:
-Code as fast as you can! You need to double the integer and return it.
+Task:
+Write a function that takes an integer as input and returns the value you get by multiplying it by two.
+
+Example:
+
+Input: 7 → Output: 14
 '''
 
 

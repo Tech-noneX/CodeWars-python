@@ -1,26 +1,26 @@
 '''
-Description:
-Our football team has finished the championship.
+Task:
+A football team played a championship with 10 matches. The results are stored as a list of strings, where each string follows the format "a:b". Here, a is our team’s score, and b is the opponent’s score.
 
-Our team's match results are recorded in a collection of strings. 
-Each match is represented by a string in the format "x:y", 
-where x is our team's score and y is our opponents score.
+Your function should calculate and return the total number of points our team earned, using the following rules:
 
-For example: ["3:1", "2:2", "0:1", ...]
+3 points for a win (our teams score is higher)
 
-Points are awarded for each match as follows:
+1 point for a draw (scores are equal)
 
-if x > y: 3 points (win)
-if x < y: 0 points (loss)
-if x = y: 1 point (tie)
-We need to write a function that takes this collection and returns the number of points 
-our team (x) got in the championship by the rules given above.
+0 points for a loss (our teams score is lower)
 
-Notes:
+Examples:
+Suppose the results are:
+["2:1", "1:2", "0:0", "4:4", "3:0", "2:2", "1:1", "4:3", "3:3", "2:0"]
 
-our team always plays 10 matches in the championship
-0 <= x <= 4
-0 <= y <= 4
+Wins: "2:1", "3:0", "4:3", "2:0" → 4 x 3 = 12 points
+
+Draws: "0:0", "4:4", "2:2", "1:1", "3:3" → 5 x 1 = 5 points
+
+Losses: "1:2" → 0 points
+
+Total points: 17
 '''
 test_data = [
     (['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3'], 30),

@@ -1,17 +1,24 @@
 '''
-Description:
-After a hard quarter in the office you decide to get some rest on a vacation. 
-So you will book a flight for you and your girlfriend 
-and try to leave all the mess behind you.
+Task:
+You’re planning a trip and want to know how much it will cost to rent a car. The daily rental price is $40.
 
-You will need a rental car in order for you to get around in your vacation. 
-The manager of the car rental makes you some good offers.
+If you rent the car for 7 days or more, you receive a $50 discount on the total.
 
-Every day you rent the car costs $40. If you rent the car for 7 or more days, 
-you get $50 off your total. Alternatively, if you rent the car for 3 or more days, 
-you get $20 off your total.
+If you rent for at least 3 days (but less than 7), you get $20 off the total price.
 
-Write a code that gives out the total amount for different days(d).
+Rentals shorter than 3 days get no discount.
+
+Write a function that takes the number of days as input and returns the total rental cost.
+
+Examples:
+
+Input: 8 → Output: 270 (8 x $40 = $320, minus $50 discount)
+
+Input: 5 → Output: 180 (5 x $40 = $200, minus $20 discount)
+
+Input: 2 → Output: 80 (2 x $40 = $80, no discount)
+
+
 '''
 
 #==========================automatically generated test data====================

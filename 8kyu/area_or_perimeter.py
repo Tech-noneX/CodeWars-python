@@ -1,13 +1,21 @@
 '''
-Description:
-You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
-If it is a square, return its area. If it is a rectangle, return its perimeter.
+Task:
+You'll receive two numbers representing the sides of a four-sided shape. Your job is to determine whether this shape is a square or a rectangle:
 
-Example(Input1, Input2 --> Output):
+If both sides are the same length, calculate and return the area.
 
-6, 10 --> 32
-3, 3 --> 9
-Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
+If the sides are different, return the perimeter instead.
+
+Examples:
+
+For sides 6 and 10, return 32 (since its a rectangle, the perimeter is 2 x (6 + 10) = 32).
+
+For sides 3 and 3, return 9 (since its a square, the area is 3 x 3 = 9).
+
+Note:
+Treat the shape as a square if the two side lengths are equal; otherwise, its a rectangle.
+
+
 '''
 
 

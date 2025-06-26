@@ -1,13 +1,19 @@
 import random
 import string
 '''
-Description:
-Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+Task:
+Write a function that takes a string and returns a new string where every character 
+(keeping upper and lower case as-is) appears twice in a row.
 
-Examples (Input -> Output):
-* "String"      -> "SSttrriinngg"
-* "Hello World" -> "HHeelllloo  WWoorrlldd"
-* "1234!_ "     -> "11223344!!__  "
+Examples:
+
+"String" → "SSttrriinngg"
+
+"Hello World" → "HHeelllloo WWoorrlldd"
+
+"1234!_ " → "11223344!!__ "
+
+
 '''
 #=====================test data automatically generated==================
 

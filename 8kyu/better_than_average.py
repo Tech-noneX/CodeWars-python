@@ -1,15 +1,21 @@
 '''
-Description:
-There was a test in your class and you passed it. Congratulations!
+Task:
+Imagine you just received your test result and want to see how you stack up against your classmates.
 
-But you're an ambitious person. You want to know if you're better than the average student in your class.
+You're given an array containing the test scores of your classmates (your own score is not included). 
+Write a function that takes this array and your personal score, 
+calculates the average of all scores (including yours), 
+and returns true if your score is higher than the class average—or false otherwise.
 
-You receive an array with your peers' test scores. Now calculate the average and compare your score!
-
-Return true if you're better, else false!
+Example:
+Suppose your classmates scored [70, 80, 90] and your score is 85.
+The average including your score is (70 + 80 + 90 + 85) / 4 = 81.25.
+Since 85 > 81.25, the function should return true.
 
 Note:
-Your points are not included in the array of your class's points. Do not forget them when calculating the average score!
+Make sure to include your own score in the average calculation!
+
+
 '''
 
 
